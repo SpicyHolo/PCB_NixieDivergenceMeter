@@ -326,6 +326,22 @@
     [
       "7cd62b6d-1f0b-4e43-a8ba-fed6cb13f0ee",
       ""
+    ],
+    [
+      "1d9544f7-c545-463f-bb78-a3c8753cb6f9",
+      "nixie_clock-MCU"
+    ],
+    [
+      "b4038689-4308-413e-a3ed-a16e97f3fce0",
+      "nixie_clock-Peripherals"
+    ],
+    [
+      "bd582945-be48-488e-b6a0-381dd739aa42",
+      "nixie driver pcb"
+    ],
+    [
+      "398b7551-f2fb-4418-b429-2e2b9b5009f5",
+      "nixie_clock-PSU"
     ]
   ],
   "text_variables": {}
