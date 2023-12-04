@@ -2831,7 +2831,7 @@
     (property "Reference" "R13" (at 153.67 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (at 151.13 67.31 90)
+    (property "Value" "2k2" (at 151.13 67.31 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 149.352 66.04 90)
