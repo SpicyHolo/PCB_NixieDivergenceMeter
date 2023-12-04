@@ -4,4 +4,5 @@
   (lib (name "nixies-us")(type "Legacy")(uri "${KIPRJMOD}/kicad_libs/Eagle-and-KiCAD-Nixie-Libs/nixies-us.mod")(options "")(descr ""))
   (lib (name "PowerDelivery")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/CYPD3177-24LQXQ")(options "")(descr ""))
   (lib (name "FET_Power")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/DMP3098LSD-13")(options "")(descr ""))
+  (lib (name "FSMRA4JH04")(type "Legacy")(uri "${KIPRJMOD}/kicad_libs/FSMRA4JH04/KiCad/FSMRA4JH04.mod")(options "")(descr ""))
 )

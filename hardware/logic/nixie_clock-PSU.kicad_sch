@@ -858,11 +858,11 @@
         )
       )
     )
-    (symbol "NIXIE:HV" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR029" (at 0 -3.81 0)
+    (symbol "Project:+HV" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "HV" (at 0 5.08 0)
+      (property "Value" "+HV" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -874,10 +874,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"VDD\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "HV_0_1"
+      (symbol "+HV_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -903,9 +903,9 @@
           (fill (type none))
         )
       )
-      (symbol "HV_1_1"
+      (symbol "+HV_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VDD" (effects (font (size 1.27 1.27))))
+          (name "+HV" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2213,6 +2213,31 @@
     (uuid 73886cc4-d600-4d66-9e65-84fa8776c575)
   )
 
+  (symbol (lib_id "Project:+HV") (at 264.16 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 013d3135-e0d2-4944-8b8d-2b4b3836cc98)
+    (property "Reference" "#PWR037" (at 264.16 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+HV" (at 264.16 24.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 264.16 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 264.16 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9ef24def-a3fd-4440-ba04-d5a1a970da18))
+    (instances
+      (project "nixie_clock"
+        (path "/7cd62b6d-1f0b-4e43-a8ba-fed6cb13f0ee/398b7551-f2fb-4418-b429-2e2b9b5009f5"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Interface_USB:CYPD3177-24LQ") (at 92.71 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02b11905-79b1-4c42-8447-0dfaf4f687b5)
@@ -3100,34 +3125,6 @@
         )
         (path "/7cd62b6d-1f0b-4e43-a8ba-fed6cb13f0ee/398b7551-f2fb-4418-b429-2e2b9b5009f5"
           (reference "RV1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "NIXIE:HV") (at 264.16 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 85cfc3d8-7a35-45fc-b610-36eff849c769)
-    (property "Reference" "#PWR053" (at 264.16 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "HV" (at 264.16 24.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 264.16 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 264.16 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a54bfbdb-7dc3-4edb-a0b1-e133311fea40))
-    (instances
-      (project "nixie_clock"
-        (path "/7cd62b6d-1f0b-4e43-a8ba-fed6cb13f0ee/bd582945-be48-488e-b6a0-381dd739aa42"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/7cd62b6d-1f0b-4e43-a8ba-fed6cb13f0ee/398b7551-f2fb-4418-b429-2e2b9b5009f5"
-          (reference "#PWR026") (unit 1)
         )
       )
     )

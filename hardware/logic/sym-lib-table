@@ -5,4 +5,5 @@
   (lib (name "FET_Power")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/DMP3098LSD-13/DMP3098LSD-13.kicad_sym")(options "")(descr ""))
   (lib (name "HV")(type "KiCad")(uri "${KIPRJMOD}/HV.kicad_sym")(options "")(descr ""))
   (lib (name "Project")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/Project.kicad_sym")(options "")(descr ""))
+  (lib (name "FSMRA4JH04")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/FSMRA4JH04/KiCad/FSMRA4JH04.kicad_sym")(options "")(descr ""))
 )

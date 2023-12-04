@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=FSMRA4JH04
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2018-09-13 22:08:09
+Downloaded=2023-12-04 19:04:28
+3D=Y
