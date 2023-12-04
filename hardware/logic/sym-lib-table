@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nixies-us")(type "Legacy")(uri "${KIPRJMOD}/kicad_libs/Eagle-and-KiCAD-Nixie-Libs/nixies-us.lib")(options "")(descr ""))
+  (lib (name "Power_Delivery")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/CYPD3177-24LQXQ/CYPD3177-24LQXQ.kicad_sym")(options "")(descr ""))
+  (lib (name "FET_Power")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/DMP3098LSD-13/DMP3098LSD-13.kicad_sym")(options "")(descr ""))
+  (lib (name "HV")(type "KiCad")(uri "${KIPRJMOD}/HV.kicad_sym")(options "")(descr ""))
+  (lib (name "Project")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/Project.kicad_sym")(options "")(descr ""))
+)

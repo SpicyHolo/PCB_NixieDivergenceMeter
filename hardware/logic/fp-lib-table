@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HVPS")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/HVPS.pretty")(options "")(descr ""))
+  (lib (name "nixies-us")(type "Legacy")(uri "${KIPRJMOD}/kicad_libs/Eagle-and-KiCAD-Nixie-Libs/nixies-us.mod")(options "")(descr ""))
+  (lib (name "PowerDelivery")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/CYPD3177-24LQXQ")(options "")(descr ""))
+  (lib (name "FET_Power")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/DMP3098LSD-13")(options "")(descr ""))
+)

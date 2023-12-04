@@ -1,8 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "IN-14")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/IN-14.kicad_sym")(options "")(descr ""))
-  (lib (name "mynixies")(type "Legacy")(uri "${KIPRJMOD}/kicad_libs/Eagle-and-KiCAD-Nixie-Libs/mynixies.lib")(options "")(descr ""))
-  (lib (name "nixiemisc")(type "Legacy")(uri "${KIPRJMOD}/kicad_libs/Eagle-and-KiCAD-Nixie-Libs/nixiemisc.lib")(options "")(descr ""))
-  (lib (name "nixies-us")(type "Legacy")(uri "${KIPRJMOD}/kicad_libs/Eagle-and-KiCAD-Nixie-Libs/nixies-us.lib")(options "")(descr ""))
-  (lib (name "nixie_clock")(type "KiCad")(uri "${KIPRJMOD}/kicad_libs/nixie_clock.kicad_sym")(options "")(descr ""))
-)
