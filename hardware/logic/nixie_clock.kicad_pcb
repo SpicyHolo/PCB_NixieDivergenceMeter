@@ -5555,7 +5555,7 @@
 
   (gr_rect (start 100 50) (end 268 94)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp bb2b0d35-915e-46a8-b489-c66179432ece))
-  (gr_text "TODO:\n- Zasilacz 3.3V KAPUT, znalezc lepszy\n- Sprawdzic na pewno polaczenia\n- Zmienic wyjscia HV5622 pod routing\n" (at 99.06 35.56) (layer "F.Cu") (tstamp 25b121fc-d24d-4db0-88a2-797b866b1f07)
+  (gr_text "TODO:\n- Zasilacz 3.3V KAPUT, znalezc lepszy\n- Sprawdzic na pewno polaczenia\n- Zmienic wyjscia HV5622 pod routing\n- Poprawić connectory HV i GND (pozycja)\n- Ogarnąc footprinty jeszcze raz" (at 99.06 35.56) (layer "F.Cu") (tstamp 25b121fc-d24d-4db0-88a2-797b866b1f07)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
 
